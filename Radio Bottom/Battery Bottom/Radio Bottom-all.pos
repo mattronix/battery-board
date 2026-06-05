@@ -1,0 +1,18 @@
+### Footprint positions - created on 2026-06-05T13:32:25 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val             Package                                     PosX       PosY       Rot  Side
+C1        0.1µF           C_0603_1608Metric                       153.0604  -108.2040   90.0000  top
+D1        D_Zener         D_SOD-123                               150.1648   -80.7212    0.0000  top
+J1        Conn_01x06_Pin  JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical   142.3200  -129.7686    0.0000  top
+J2        VBAT+_2         Pogo_Radio_Bottom_6MM                   152.4370  -102.0000    0.0000  top
+J3        VBAT+_1         Pogo_Radio_Bottom_6MM                   144.5630  -102.0000    0.0000  top
+J4        GND_R           Bolt_Pad_4.25                           148.5000   -90.3922    0.0000  top
+J5        DATA_1          Pogo_Radio_Bottom_6MM                   148.5000  -102.0000    0.0000  top
+J6        GND_L           Bolt_Pad_4.25                           148.5000  -113.6078    0.0000  top
+Q1        FQP27P06        TO-220-3_Vertical                       140.3350   -74.5490  -90.0000  top
+R1        5mΩ             R_2512_6332Metric                       159.1056  -106.6038   90.0000  top
+R4        100K            R_0603_1608Metric                       152.8196   -84.0232  -90.0000  top
+U1        INA226          TSSOP-10_3x3mm_P0.5mm                   148.6916  -106.4006    0.0000  top
+## End

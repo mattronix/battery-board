@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+F1,1206,1,FUSE_VBAT+_1,
+J1,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,JST_PWR_CON,
+J2,Pogo Battery 7MM,1,VBAT+_2,
+J3,Pogo Battery 7MM,1,VBAT+_1,
+J4,Bolt Pad 4.25,1,GND_R,
+J5,Pogo Battery 7MM,1,DATA_1,
+J6,Bolt Pad 4.25,1,GND_L,

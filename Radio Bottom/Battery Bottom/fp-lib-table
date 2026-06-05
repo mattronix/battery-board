@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Radio Library") (type "KiCad") (uri "/Users/matthew/Resilio Sync/unas-kgg/Part Designs/PRC 152A Repro/PCB Design/Kicad Footprint Libaries/Radio Library.pretty") (options "") (descr ""))
+)
