@@ -1,2 +1,54 @@
+# --- Project-specific ---
 production/
+.history/
 .DS_Store
+
+# --- KiCad backups & autosaves ---
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.000
+*.bck
+
+# --- KiCad lock / temp files ---
+*.lck
+~*.lck
+*~
+
+# --- KiCad cache / autorouter ---
+fp-info-cache
+*.kicad_prl
+
+# --- Misc tool scratch files ---
+*.rsls
+
+# --- Netlist / schematic exports ---
+*.net
+*.cmp
+*.xml
+
+# --- Gerber / fabrication outputs ---
+*.gbr
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.gm1
+*.gml
+*.drl
+*.xln
+*.gbrjob
+*.pos
+*.rpt
+gerbers/
+gerber/
+
+# --- Simulation ---
+*.raw
+spice-*.txt
