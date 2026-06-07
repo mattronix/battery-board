@@ -5330,6 +5330,16 @@
 		)
 		(uuid "7cf311f1-b9b7-44f1-b6cd-bf10a7a235de")
 	)
+	(label "DATA"
+		(at 157.48 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "830d8366-794e-4c49-94a8-1cb251fd7b74")
+	)
 	(label "VBAT+_P"
 		(at 158.75 147.32 180)
 		(effects
@@ -5522,6 +5532,83 @@
 			(project "Battery Top"
 				(path "/4d066849-3f37-4480-bd30-0688a5a62bf8"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 162.56 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3317b315-745e-4cf5-a02d-bd05d3a10c6e")
+		(property "Reference" "J5"
+			(at 161.925 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DATA_1"
+			(at 161.925 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Radio Library:Pogo Battery 7MM"
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ce3f170-cf6c-43e8-b8b2-8388fabc4f43")
+		)
+		(instances
+			(project "Battery Top"
+				(path "/4d066849-3f37-4480-bd30-0688a5a62bf8"
+					(reference "J5")
 					(unit 1)
 				)
 			)

@@ -68,6 +68,22 @@ battery current/voltage and report over the data line.
 
 ---
 
+## Additional parts required (beyond the BOMs)
+
+The electronic BOM spreadsheets (`*/BOM/*.xls`) cover the parts placed by JLCPCB.
+You also need the following mechanical / assembly parts to build a working unit:
+
+| Part | Spec / Source | Used on |
+|------|---------------|---------|
+| Battery | 1× — [AliExpress](https://www.aliexpress.com/item/1005009778488275.html) | Battery Top |
+| O‑ring | 13.9 × 1.8 mm | Assembly seal |
+| Stainless‑steel printed part | Metal (stainless) 3D print | Mechanical |
+| Battery tabs | — | Battery Top |
+| Pogo pin — Radio side, 6 mm height | [AliExpress](https://www.aliexpress.com/item/1005006095992803.html) | Radio Bottom (`Pogo Radio Bottom 6MM`) |
+| Pogo pin — Battery side, 7 mm height | [AliExpress](https://www.aliexpress.com/item/32862727404.html) | Battery Top (`Pogo Battery 7MM`) |
+
+---
+
 ## The custom footprint library (`Radio Library`)
 
 `Kicad Footprint Libaries/Radio Library.pretty/` is a standard KiCad `.pretty`
