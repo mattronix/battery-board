@@ -1,0 +1,76 @@
+(footprint "Keystone_5222_SpringContact_THM"
+	(version 20240108)
+	(generator "claude")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+	(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+	(attr through_hole)
+	(property "Reference" "BT**"
+		(at 0 -6.5 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "Keystone_5222_SpringContact_THM"
+		(at 0 6.6 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab") hide
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+		(at 0 0 0)
+		(layer "F.Fab") hide
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab") hide
+		(effects (font (size 1.27 1.27)))
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 0)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 0)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+	)
+	(fp_circle
+		(center 0 0) (end 4.75 0)
+		(stroke (width 0.12) (type default)) (fill none)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 0 0) (end 5.1 0)
+		(stroke (width 0.05) (type default)) (fill none)
+		(layer "F.CrtYd")
+	)
+	(fp_circle
+		(center 0 0) (end 4.9 0)
+		(stroke (width 0.12) (type default)) (fill none)
+		(layer "F.SilkS")
+	)
+	(fp_text user "-"
+		(at 0 2.8 0)
+		(layer "F.SilkS")
+		(effects (font (size 1.6 1.6) (thickness 0.25)))
+	)
+	(model "${KIPRJMOD}/Keystone_5222_SpringContact_THM.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
+)

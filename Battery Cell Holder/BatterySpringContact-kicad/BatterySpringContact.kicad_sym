@@ -1,0 +1,64 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "claude")
+	(generator_version "8.0")
+	(symbol "Battery_Spring_Contact"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BT"
+			(at 2.54 3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 2.54 -3.81 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "BatterySpringContact:BatterySpringContact_ConicalPCB_7mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "ki_keywords" "battery spring contact 18650 cell negative coil keystone 5222"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "ki_fp_filters" "*SpringContact* *Battery* Keystone_5222*"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "Battery_Spring_Contact_0_1"
+			(rectangle
+				(start -2.54 3.05)
+				(end 2.54 2.54)
+				(stroke (width 0.1) (type default))
+				(fill (type outline))
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 1.27 1.78) (xy -1.27 1.02) (xy 1.27 0.26)
+					(xy -1.27 -0.5) (xy 1.27 -1.26) (xy -1.27 -2.02) (xy 1.27 -2.78)
+					(xy 0 -3.54) (xy 0 -5.08)
+				)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "Battery_Spring_Contact_1_1"
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+)

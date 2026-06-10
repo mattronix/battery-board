@@ -1,0 +1,1910 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "1d74fae2-6e63-4ea1-985f-a8378ef326b3")
+		(at 88.5 94)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "C1"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "40cf1c26-c707-4c1a-995b-a79e62d859e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "535b50aa-08db-4e99-9df1-c1348d6a2799")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d36dccaa-29e1-4653-a329-49d395f63260")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cb835b-fe67-493d-924f-f0f21addcbbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ce142e2-a505-4c07-9e06-2232b2d26bc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6af3fce5-303e-42e4-afba-4eb4c39bdf23")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c893f588-e32b-4037-a772-3672b2157731")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7a8c16ce-2f89-465e-9b49-a15c73b10595")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "53f86501-3267-4210-9407-8ebd2cca5875")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "8187b803-3de4-4654-a1e4-2bc9f19e0a01")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BatterySpringContact:Keystone_5222_SpringContact_THM"
+		(layer "F.Cu")
+		(uuid "242e7956-4b6b-4a59-a495-0cc1601d0e20")
+		(at 97.187074 84.78834)
+		(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+		(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+		(property "Reference" "BT1"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "e63c6e1d-4df4-49a8-a1df-fc3cbfea4df0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 6.6 0)
+			(layer "F.Fab")
+			(uuid "e8cc319e-d1e9-434b-8adb-0b7c2145bf82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "633353c3-b23c-4bbc-9c90-6d8b8e4098fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f51a9f17-4abd-4a67-9291-8a534e89ac8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*SpringContact* *Battery* Keystone_5222*")
+		(path "/941154d8-d140-4a07-9cd7-bb06c4da78a0")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "994db871-57ac-406b-844e-f16674c983be")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5.1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "75ccf33a-3912-4722-ab4f-7b171b234f8f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.75 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c60287d8-3a2f-411f-ae6b-b6d401e2289d")
+		)
+		(fp_text user "+"
+			(at 0 2.8 0)
+			(layer "F.SilkS")
+			(uuid "f662e758-3358-408b-bc86-a6140173350d")
+			(effects
+				(font
+					(size 1.6 1.6)
+					(thickness 0.25)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5e4aeb28-6c19-4957-9d0d-05fec742c0ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "b82a6d4b-1b16-4374-a958-c7ef6104ff16")
+		)
+		(pad "1" thru_hole circle
+			(at 3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "c765c443-5bc7-4bef-a826-9a4552475f91")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BatterySpringContact:Keystone_5222_SpringContact_THM"
+		(layer "F.Cu")
+		(uuid "2aad10e8-822d-49ae-889d-3b62f7c4c866")
+		(at 97.187074 103.78834)
+		(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+		(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+		(property "Reference" "BT3"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "8aa117ef-3989-4eda-84dc-eaf36e2d0c56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 6.6 0)
+			(layer "F.Fab")
+			(uuid "646d1665-24a4-40e5-9db4-4f061430e7ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aae55cfc-55df-4955-9510-5cf64e5fe65a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dde500be-833d-4d52-a065-c611c0b80335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*SpringContact* *Battery* Keystone_5222*")
+		(path "/f1b1e25c-d9f5-45f5-ba96-4c8ebbd1cfad")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "85930e50-653d-4454-af52-892db096337e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5.1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b92baa58-1e37-4ad1-a58b-bddff8acd553")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.75 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0d264853-d3a2-4980-9bd0-a69a544dd598")
+		)
+		(fp_text user "-"
+			(at 0 2.8 0)
+			(layer "F.SilkS")
+			(uuid "81b2d830-a5ad-4949-acfb-5f361f21c8f3")
+			(effects
+				(font
+					(size 1.6 1.6)
+					(thickness 0.25)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ae96cecf-a524-44af-b2a7-361311659ddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "68864f0e-56d6-4b00-a859-0f40954101f4")
+		)
+		(pad "1" thru_hole circle
+			(at 3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "f7a1d49b-75f3-4f60-90e1-31b551e7f0ee")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BatterySpringContact:Keystone_5222_SpringContact_THM"
+		(layer "F.Cu")
+		(uuid "2d18f45b-9198-4976-9620-23b66b5caffe")
+		(at 114.216932 75.309426)
+		(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+		(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+		(property "Reference" "BT2"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "65ca2e89-b387-466a-8bda-4eb24c166db9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 6.6 0)
+			(layer "F.Fab")
+			(uuid "a42f9eed-2c49-4361-9df6-18b6cebd9c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e5d9fbb-8950-4fae-9429-024d46dfb26f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "181b91be-5039-4bdd-8859-317282c4214e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*SpringContact* *Battery* Keystone_5222*")
+		(path "/0a248d0c-5fc0-45cf-acd2-4717218aed64")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "efb9c478-a9c0-4358-8a49-c8ec3d960333")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5.1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b311c108-97c4-471e-8bb5-7d267bca0e2a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.75 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "96be0bfc-6ba3-4896-9517-1691306b413f")
+		)
+		(fp_text user "+"
+			(at 0 2.8 0)
+			(layer "F.SilkS")
+			(uuid "8f1a0b24-3379-4f1b-bc40-a4efa8346779")
+			(effects
+				(font
+					(size 1.6 1.6)
+					(thickness 0.25)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "90d98c69-01dc-4392-8487-d11fde53ffeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "c27c55a5-1af5-4613-ac50-5c91abdb9bc5")
+		)
+		(pad "1" thru_hole circle
+			(at 3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "1df83405-5158-4b0e-8c2f-9de15db88b79")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BatterySpringContact:Keystone_5222_SpringContact_THM"
+		(layer "F.Cu")
+		(uuid "36112694-8bb0-4333-a203-a660b270c54c")
+		(at 114.216932 94.309426)
+		(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+		(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+		(property "Reference" "BT4"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "1549da06-c332-449a-b7ac-93c25d31585a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 6.6 0)
+			(layer "F.Fab")
+			(uuid "c03e876e-05ab-45d4-9cc8-60ebf32188c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "094feea5-1066-4e8f-9240-58a97ee01f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c5a19f2-ff3b-4ea9-abfd-c4556907a1f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*SpringContact* *Battery* Keystone_5222*")
+		(path "/c29443ba-8fd3-4f90-8ddf-d47da8244fe7")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fc2201b3-8270-4edf-a339-30f6af0cdea3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5.1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f5cd0822-e1d9-4d48-af04-b5aeb855cb58")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.75 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "289a8e88-cc88-4987-a6c6-5492008b3039")
+		)
+		(fp_text user "-"
+			(at 0 2.8 0)
+			(layer "F.SilkS")
+			(uuid "7cb5f27f-ff35-4886-9205-f949c2de9e4f")
+			(effects
+				(font
+					(size 1.6 1.6)
+					(thickness 0.25)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "827527b3-dd7f-440e-8890-f76434235e7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "f3604430-3a03-4a8b-82d5-9f6470d6b96c")
+		)
+		(pad "1" thru_hole circle
+			(at 3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pintype "passive")
+			(uuid "b5990d72-5ebb-4fd2-a209-1d94452b2f4c")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "aa4e4431-4598-4c80-8f34-e840c3659399")
+		(at 122.5 85)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "C1"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "fbddeb44-56d1-48dc-8c7f-626ef0cb2abe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "1fe8d241-1957-46f0-a20b-c3a3c8f665c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35fc249d-6d2e-4c2f-8eba-bef427f4eccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41f51ea9-f3f7-4d4f-a77a-6ae25bf3d627")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cdbf1df9-b1ee-40fd-987b-91754389ae84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/69432c9a-4209-4ef7-a741-a192a4faa0db")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2d2dcf5d-246d-4c4d-8108-075c23a71ffb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "427f8bcf-1f68-4859-8076-49b0dd4dce4b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e2335e89-82c3-4b08-b39d-50da9989dd35")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "96a4616d-1047-444b-b227-c9eb3acc1b4d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "bb53cead-d377-4aa8-bff4-e1c75dda52de")
+		(at 122.5 103.75)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "C3"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "0c492d20-dc2e-4e72-b9be-a0e01ae43df5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "9df27ee6-604d-4e4c-b230-76f0bfa6ad44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e75af7f-f5ef-4fab-9153-94c90256235e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff92bd52-0d3d-4a18-81ae-ee0f22dc45d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab77713b-6b08-4126-a815-6195038a23f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0a19383d-18b9-4069-9233-d859d2c60e77")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ea4f5db5-908f-43e8-a1b5-76f888ec57eb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "266a0c19-eabd-4957-b867-abfda5e72fe4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0c42bb66-77e0-407d-8558-233a897d7dbc")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C3")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "cd870154-8fc1-41a8-b288-7c5bb776036a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BatterySpringContact:Keystone_5222_SpringContact_THM"
+		(layer "F.Cu")
+		(uuid "e3afb57c-8b1f-43ba-8cb2-f5f98884c1fe")
+		(at 97.187074 122.78834)
+		(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+		(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+		(property "Reference" "BT5"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "e611c384-5729-4003-aec2-561621083650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 6.6 0)
+			(layer "F.Fab")
+			(uuid "4bc762e8-b332-4fec-a84c-a0a11fa9b140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bac9cc71-237c-45c9-b99b-04839d8465bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ec974dc-8ff0-48eb-9893-53c3c67d25b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*SpringContact* *Battery* Keystone_5222*")
+		(path "/78d1af9b-28d9-4d82-a4a0-478405016d83")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "014e67c3-2151-425e-b496-9575368bad51")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5.1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d4cafa73-db6b-410a-be13-1452185cdeb3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.75 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "269d971c-70b5-4afb-bee7-c77534ab8e71")
+		)
+		(fp_text user "+"
+			(at 0 2.8 0)
+			(layer "F.SilkS")
+			(uuid "95c432f9-2656-46be-9923-a7b4c037dbdf")
+			(effects
+				(font
+					(size 1.6 1.6)
+					(thickness 0.25)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5f1a1e33-c5d8-4cef-9105-e1742845ab8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pintype "passive")
+			(uuid "fb4407b9-0f4a-4fe7-ad9a-ff0eb303b5c0")
+		)
+		(pad "1" thru_hole circle
+			(at 3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pintype "passive")
+			(uuid "591a4c99-931a-4951-b588-6b1d949895a5")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "f9498f06-49b3-4aae-82fd-910957e78c82")
+		(at 88.75 113.25)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "C3"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "e7b0fea7-175e-44ce-834e-e158875106ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "b5c2247c-ffcd-4a28-b030-445a3bc8be4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "998fe3a4-ef5b-4465-a9e3-d11ff8380d47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21c546a1-ed22-4c81-9095-6bcaeba4954d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "668a2dad-283a-49c6-af8a-e9a2929af9f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/d97b7123-1f9a-4e1b-b2c6-150a05af4c38")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5ace6680-b7f8-4e78-9967-90dd3edf6a59")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b4a726e5-63d6-4911-8dce-04da9a399280")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0bd90f9d-b600-4266-b792-f80c9ff02d6f")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C3")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "7c511611-21ba-4e26-b245-39393c82339a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "BatterySpringContact:Keystone_5222_SpringContact_THM"
+		(layer "F.Cu")
+		(uuid "fb15ca6e-936d-4857-b47e-cca79d854dd6")
+		(at 114.216932 113.309426)
+		(descr "Battery coil spring contact, single electrical terminal, through-hole solder. NOMINAL dimensions for a Keystone 5222/5202-class AA/18650 coil spring (coil OD ~9.5 mm). NOTE: the real 5222 is a slide-in CASE-mount part with no standard PCB land - this is a PCB-solder interpretation with two solder legs tied to ONE net. Verify against your physical part before fabrication.")
+		(tags "battery spring contact coil 18650 keystone 5222 5201 5202 negative")
+		(property "Reference" "BT6"
+			(at 0 -6.5 0)
+			(layer "F.SilkS")
+			(uuid "770198cd-9e16-4f41-966b-762566c61b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 6.6 0)
+			(layer "F.Fab")
+			(uuid "f3e1a784-27e3-4145-8799-7ee424c3c366")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf365779-b5a8-4a25-a894-95231aa7f2e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9d83cee-21a1-4026-b604-becbd09f5337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "*SpringContact* *Battery* Keystone_5222*")
+		(path "/a809a27d-de3b-4233-8aeb-247f4467d7c5")
+		(sheetname "/")
+		(sheetfile "Battery Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 4.9 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "234e245a-bd40-41bb-9f2b-3b454723b539")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5.1 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f6470819-783d-4601-846e-b5e63834f5b9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.75 0)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "1e2d4bac-3d32-4ec6-aae8-830194c8de46")
+		)
+		(fp_text user "+"
+			(at 0 2.8 0)
+			(layer "F.SilkS")
+			(uuid "8c0f25b1-b3d2-497c-8ce7-b7da6f07ee77")
+			(effects
+				(font
+					(size 1.6 1.6)
+					(thickness 0.25)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3551b5c1-095f-4e04-93fa-563cfbbb9cf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pintype "passive")
+			(uuid "3317b228-7ed7-46d4-8633-825e3b146914")
+		)
+		(pad "1" thru_hole circle
+			(at 3.5 0)
+			(size 2 2)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pintype "passive")
+			(uuid "4923b8b8-60e4-4396-994f-f89015d3c3ed")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_circle
+		(center 97.187074 84.78834)
+		(end 106.437074 84.78834)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "50e1f8ed-0303-422a-850c-9cdb03a48083")
+	)
+	(gr_circle
+		(center 97.187074 103.78834)
+		(end 106.437074 103.78834)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0f7ad18d-0b0d-4133-b0f7-e803f8b80039")
+	)
+	(gr_circle
+		(center 97.187074 122.78834)
+		(end 106.437074 122.78834)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b854984e-064a-4ce2-9947-4b408be00641")
+	)
+	(gr_circle
+		(center 114.216932 75.309426)
+		(end 123.466932 75.309426)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b731ac79-1a3b-4c87-9e10-7dae75412999")
+	)
+	(gr_circle
+		(center 114.216932 94.309426)
+		(end 123.466932 94.309426)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "26f902bf-2a4b-4fd5-a735-fa8fbb8afd34")
+	)
+	(gr_circle
+		(center 114.216932 113.309426)
+		(end 123.466932 113.309426)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "8637605d-8a47-45d9-a6c1-89949f118006")
+	)
+	(gr_arc
+		(start 87.272118 131.236406)
+		(mid 86.031742 104.095961)
+		(end 86.595607 76.933039)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2977359-265f-4da6-b661-dbb7f54c9161")
+	)
+	(gr_arc
+		(start 90.262789 134.000001)
+		(mid 88.226767 133.203318)
+		(end 87.272118 131.236406)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad4b93fd-a17c-4a09-bc88-c0793bc9bf6e")
+	)
+	(gr_line
+		(start 90.262789 134.000001)
+		(end 105.500001 134.000001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2238800-7a47-4117-92da-12d110914909")
+	)
+	(gr_line
+		(start 101.451443 64)
+		(end 86.595607 76.933039)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc61e00e-2cd0-444a-8f82-c72335fbf503")
+	)
+	(gr_line
+		(start 104.054667 130.242766)
+		(end 121.951198 120.767711)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b31d2ea-13e1-4276-ad04-826ce05e3fe8")
+	)
+	(gr_line
+		(start 105.500001 134.000001)
+		(end 124.230259 124.083542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "50815362-cb23-44b8-91de-4e81d2697c98")
+	)
+	(gr_line
+		(start 105.575354 133.115049)
+		(end 104.054667 130.242766)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c36e7e89-057b-4a3f-9637-1b7e1880d0cb")
+	)
+	(gr_line
+		(start 120.737213 64.000001)
+		(end 101.451443 64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66773fc2-4f4f-4951-ac46-84fa5b12be6d")
+	)
+	(gr_arc
+		(start 120.737213 64.000001)
+		(mid 122.773235 64.796684)
+		(end 123.727883 66.763595)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea9ec2f7-98f5-4950-914b-f5de847cda98")
+	)
+	(gr_line
+		(start 121.951198 120.767711)
+		(end 123.471886 123.639994)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "276bc570-d36f-4b3e-9d94-8a745f08dfba")
+	)
+	(gr_line
+		(start 123.471886 123.639994)
+		(end 105.575354 133.115049)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c124123c-2111-4571-abce-eb6f9760bebd")
+	)
+	(gr_arc
+		(start 123.727883 66.763595)
+		(mid 124.984289 95.414758)
+		(end 124.230259 124.083542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8b907e90-448a-4d99-8530-5f4cf1dfaa79")
+	)
+	(gr_text "TOP PANEL\n[UNDERSIDE]\n"
+		(at 96 75 40)
+		(layer "F.SilkS")
+		(uuid "e4b158ea-37b2-406c-aa90-21eac4afbbd4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(segment
+		(start 100.687074 103.78834)
+		(end 93.687074 103.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "0e999a2b-e7de-4ca7-a322-f4c3a6d34870")
+	)
+	(segment
+		(start 110.716932 94.309426)
+		(end 101.238018 103.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "21f24a84-b246-4474-8586-2cc08c7fc095")
+	)
+	(segment
+		(start 110.716932 75.309426)
+		(end 101.238018 84.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "434d2203-0700-41a2-a064-00762bc9fafb")
+	)
+	(segment
+		(start 117.716932 84.5)
+		(end 117.716932 94.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "4393bcaf-ffb7-4f81-a12f-1b9d2ac2a3d5")
+	)
+	(segment
+		(start 117.716932 75.309426)
+		(end 117.716932 84.5)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "564d8ca4-760c-4263-8d35-b74104eb9088")
+	)
+	(segment
+		(start 101.238018 103.78834)
+		(end 100.687074 103.78834)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "6900962d-3f0b-42aa-b276-bdba46834738")
+	)
+	(segment
+		(start 121.727763 84.5)
+		(end 121.748314 85.029192)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "707cb169-25c9-4d3a-90f1-3605cb77d455")
+	)
+	(segment
+		(start 117.716932 75.309426)
+		(end 110.716932 75.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "707dac7b-a195-4650-8084-9a178eb65ad9")
+	)
+	(segment
+		(start 100.687074 84.78834)
+		(end 93.687074 84.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "76d5b89a-0a62-43f8-89a9-e9a0e768e6b2")
+	)
+	(segment
+		(start 93.687074 93.75)
+		(end 89.046218 93.75)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "787f34bc-93e9-45f0-8a9d-a1a13e88e457")
+	)
+	(segment
+		(start 117.716932 94.309426)
+		(end 110.716932 94.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "803dfff1-2c9b-4580-8ed7-15de14a688cb")
+	)
+	(segment
+		(start 89.046218 93.75)
+		(end 89.042076 94.00868)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "8297f3c2-6e7c-4746-88cc-4985a60236c7")
+	)
+	(segment
+		(start 93.687074 84.78834)
+		(end 93.687074 93.75)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "890e5788-3c3b-44e4-adfd-af10544fbef4")
+	)
+	(segment
+		(start 93.687074 93.75)
+		(end 93.687074 103.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "ab871e93-b64b-4012-80f5-6a668ed6a4af")
+	)
+	(segment
+		(start 101.238018 84.78834)
+		(end 100.687074 84.78834)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "d8af6e5d-8ed8-43ba-ad10-a740302cfb22")
+	)
+	(segment
+		(start 117.716932 84.5)
+		(end 121.727763 84.5)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "ff0414aa-c5dc-4c57-8842-3ce02d27bfd1")
+	)
+	(segment
+		(start 93.687074 122.78834)
+		(end 93.687074 117.659759)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "1dc67b01-26ca-4743-bcf3-6a380db3f02c")
+	)
+	(segment
+		(start 101.238018 122.78834)
+		(end 100.687074 122.78834)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "227b0615-58d6-46b1-91c2-29e2fc5e161b")
+	)
+	(segment
+		(start 117.716932 113.309426)
+		(end 117.716932 108.533068)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "24d751a5-2f61-44a4-9fe2-9937b47e223f")
+	)
+	(segment
+		(start 93.687074 117.659759)
+		(end 89.256572 113.229257)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "319ebf04-8a19-433a-835d-8b8ffa31d2da")
+	)
+	(segment
+		(start 117.716932 108.533068)
+		(end 121.964264 104.285736)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "5384be60-3f46-43ec-8462-ac537e7479df")
+	)
+	(segment
+		(start 93.687074 122.78834)
+		(end 100.687074 122.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "55993cff-b19c-48f8-adf0-f31c1eafaf69")
+	)
+	(segment
+		(start 117.716932 113.309426)
+		(end 110.716932 113.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "5c5cc014-681e-45cd-b2bc-137a7480c4d8")
+	)
+	(segment
+		(start 110.716932 113.309426)
+		(end 101.238018 122.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "f94a074d-cd01-440f-984a-bc3a6642c824")
+	)
+	(embedded_fonts no)
+)
