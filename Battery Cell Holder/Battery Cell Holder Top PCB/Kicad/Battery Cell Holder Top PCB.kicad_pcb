@@ -227,7 +227,7 @@
 		(property "Reference" "BT1"
 			(at 0 -6.5 0)
 			(layer "F.SilkS")
-			(uuid "e63c6e1d-4df4-49a8-a1df-fc3cbfea4df0")
+			(uuid "9f506e67-db54-4289-b3ba-bf21916da8cb")
 			(effects
 				(font
 					(size 1 1)
@@ -238,7 +238,7 @@
 		(property "Value" "Battery_Spring_Contact"
 			(at 0 6.6 0)
 			(layer "F.Fab")
-			(uuid "e8cc319e-d1e9-434b-8adb-0b7c2145bf82")
+			(uuid "b821cd35-aecd-48e6-a508-8caf8f25d5ba")
 			(effects
 				(font
 					(size 1 1)
@@ -250,7 +250,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "633353c3-b23c-4bbc-9c90-6d8b8e4098fb")
+			(uuid "4d88b553-c75a-448a-a16f-1437d437bd2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +261,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f51a9f17-4abd-4a67-9291-8a534e89ac8d")
+			(uuid "53d98ca9-b95e-4395-a6af-87d59dff5b8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +377,7 @@
 		(property "Reference" "BT3"
 			(at 0 -6.5 0)
 			(layer "F.SilkS")
-			(uuid "8aa117ef-3989-4eda-84dc-eaf36e2d0c56")
+			(uuid "e8ff4d8c-774b-4f29-b499-d44a101e1082")
 			(effects
 				(font
 					(size 1 1)
@@ -388,7 +388,7 @@
 		(property "Value" "Battery_Spring_Contact"
 			(at 0 6.6 0)
 			(layer "F.Fab")
-			(uuid "646d1665-24a4-40e5-9db4-4f061430e7ee")
+			(uuid "bfe318b6-eeda-4d7a-851d-1332de7f051f")
 			(effects
 				(font
 					(size 1 1)
@@ -400,7 +400,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aae55cfc-55df-4955-9510-5cf64e5fe65a")
+			(uuid "ce89551c-8663-4469-824a-7daccbb16dd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,7 +411,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dde500be-833d-4d52-a065-c611c0b80335")
+			(uuid "a745416b-5ade-41bc-8617-ea93be8860fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,7 +463,7 @@
 			(layer "F.Fab")
 			(uuid "0d264853-d3a2-4980-9bd0-a69a544dd598")
 		)
-		(fp_text user "-"
+		(fp_text user "+"
 			(at 0 2.8 0)
 			(layer "F.SilkS")
 			(uuid "81b2d830-a5ad-4949-acfb-5f361f21c8f3")
@@ -527,7 +527,7 @@
 		(property "Reference" "BT2"
 			(at 0 -6.5 0)
 			(layer "F.SilkS")
-			(uuid "65ca2e89-b387-466a-8bda-4eb24c166db9")
+			(uuid "1dd3df1a-6a8d-459c-bf4b-2e8da9da32ed")
 			(effects
 				(font
 					(size 1 1)
@@ -538,7 +538,7 @@
 		(property "Value" "Battery_Spring_Contact"
 			(at 0 6.6 0)
 			(layer "F.Fab")
-			(uuid "a42f9eed-2c49-4361-9df6-18b6cebd9c7b")
+			(uuid "71d87765-9802-489b-bac0-27b6899bb7a0")
 			(effects
 				(font
 					(size 1 1)
@@ -550,7 +550,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e5d9fbb-8950-4fae-9429-024d46dfb26f")
+			(uuid "bfcdf97a-9785-4af1-b3b0-9eace8c15fa7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +561,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "181b91be-5039-4bdd-8859-317282c4214e")
+			(uuid "7a2eb380-67ba-4464-bfd7-a235fe812fef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +763,7 @@
 			(layer "F.Fab")
 			(uuid "289a8e88-cc88-4987-a6c6-5492008b3039")
 		)
-		(fp_text user "-"
+		(fp_text user "+"
 			(at 0 2.8 0)
 			(layer "F.SilkS")
 			(uuid "7cb5f27f-ff35-4886-9205-f949c2de9e4f")
@@ -1175,7 +1175,7 @@
 			(layer "F.Fab")
 			(uuid "269d971c-70b5-4afb-bee7-c77534ab8e71")
 		)
-		(fp_text user "+"
+		(fp_text user "-"
 			(at 0 2.8 0)
 			(layer "F.SilkS")
 			(uuid "95c432f9-2656-46be-9923-a7b4c037dbdf")
@@ -1456,7 +1456,7 @@
 			(layer "F.Fab")
 			(uuid "1e2d4bac-3d32-4ec6-aae8-830194c8de46")
 		)
-		(fp_text user "+"
+		(fp_text user "-"
 			(at 0 2.8 0)
 			(layer "F.SilkS")
 			(uuid "8c0f25b1-b3d2-497c-8ce7-b7da6f07ee77")
