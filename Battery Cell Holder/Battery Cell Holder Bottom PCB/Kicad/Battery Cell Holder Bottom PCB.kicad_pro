@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Battery Cell Holder Top PCB.kicad_pro",
+    "filename": "Battery Cell Holder Bottom PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,8 +643,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Battery Cell Holder Top PCB.kicad_sch",
-        "name": "Battery Cell Holder Top PCB",
+        "filename": "Battery Cell Holder Bottom PCB.kicad_sch",
+        "name": "Battery Cell Holder Bottom PCB",
         "uuid": "c2b66043-eeb5-4f48-8a0b-1db691422cdc"
       }
     ],
