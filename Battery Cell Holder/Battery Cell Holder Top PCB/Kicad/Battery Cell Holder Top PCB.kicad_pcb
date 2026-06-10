@@ -356,7 +356,7 @@
 			(uuid "c765c443-5bc7-4bef-a826-9a4552475f91")
 		)
 		(embedded_fonts no)
-		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -506,7 +506,7 @@
 			(uuid "f7a1d49b-75f3-4f60-90e1-31b551e7f0ee")
 		)
 		(embedded_fonts no)
-		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -656,7 +656,7 @@
 			(uuid "1df83405-5158-4b0e-8c2f-9de15db88b79")
 		)
 		(embedded_fonts no)
-		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -806,7 +806,7 @@
 			(uuid "b5990d72-5ebb-4fd2-a209-1d94452b2f4c")
 		)
 		(embedded_fonts no)
-		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1218,7 +1218,7 @@
 			(uuid "591a4c99-931a-4951-b588-6b1d949895a5")
 		)
 		(embedded_fonts no)
-		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1499,7 +1499,7 @@
 			(uuid "4923b8b8-60e4-4396-994f-f89015d3c3ed")
 		)
 		(embedded_fonts no)
-		(model "/Users/matthew/Desktop/battery top pcb/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/Keystone_5222_SpringContact_THM.step"
 			(offset
 				(xyz 0 0 0)
 			)
