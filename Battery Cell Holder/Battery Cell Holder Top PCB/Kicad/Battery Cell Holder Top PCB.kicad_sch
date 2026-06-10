@@ -5,38 +5,55 @@
 	(uuid "c2b66043-eeb5-4f48-8a0b-1db691422cdc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BatterySpringContact:Battery_Spring_Contact"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "C19724688:F10-12-0.5-1.3UU-SUS304"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 3.81 0)
+			(property "Reference" "U"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Battery_Spring_Contact"
-				(at 2.54 -3.81 0)
+			(property "Value" "F10-12-0.5-1.3UU-SUS304"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "BatterySpringContact:BatteryContact_uxcell_Plate_TabSolder_18650"
+			(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -47,8 +64,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-				(at 0 0 0)
+			(property "Manufacturer" "XMXW(芯网)"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,8 +75,8 @@
 					)
 				)
 			)
-			(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
-				(at 0 0 0)
+			(property "MPN" "F10-12-0.5-1.3UU-sus304"
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -69,8 +86,8 @@
 					)
 				)
 			)
-			(property "ki_keywords" "battery spring contact 18650 cell negative coil keystone 5222"
-				(at 0 0 0)
+			(property "LCSC Part" "C19724688"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -80,48 +97,33 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*SpringContact* *Battery* Keystone_5222*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Battery_Spring_Contact_0_1"
+			(symbol "F10-12-0.5-1.3UU-SUS304_0_1"
 				(rectangle
-					(start -2.54 3.05)
-					(end 2.54 2.54)
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
 					(stroke
-						(width 0.1)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.27 1.78) (xy -1.27 1.02) (xy 1.27 0.26) (xy -1.27 -0.5) (xy 1.27 -1.26) (xy -1.27 -2.02)
-						(xy 1.27 -2.78) (xy 0 -3.54) (xy 0 -5.08)
-					)
+				(circle
+					(center -3.81 1.27)
+					(radius 0.38)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Battery_Spring_Contact_1_1"
-				(pin passive line
-					(at 0 -7.62 90)
+				(pin unspecified line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name ""
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -129,6 +131,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -263,18 +283,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 77.47 111.76) (xy 77.47 110.49)
-		)
+	(bus_entry
+		(at 35.56 50.8)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88e2b1b8-cfb8-4639-bdca-dd110ab4a3e5")
+		(uuid "45eaebb3-7cbd-4069-86e5-c45140632073")
 	)
-	(label "C3"
-		(at 161.29 128.27 0)
+	(label "C2"
+		(at 168.91 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -283,7 +302,17 @@
 		)
 		(uuid "005dd20a-3254-403d-9cfb-0d2809212c7e")
 	)
-	(label "C1"
+	(label "C2"
+		(at 111.76 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00d6cc08-7215-4f67-b607-c89ebae65bf2")
+	)
+	(label "C3"
 		(at 100.33 138.43 0)
 		(effects
 			(font
@@ -293,7 +322,17 @@
 		)
 		(uuid "0d908df1-fe46-4338-8575-2b54e46aec71")
 	)
-	(label "C3"
+	(label "C2"
+		(at 153.67 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25b0c7e0-5431-4075-b5c5-225369a45b9d")
+	)
+	(label "C2"
 		(at 161.29 92.71 0)
 		(effects
 			(font
@@ -303,8 +342,8 @@
 		)
 		(uuid "45fd951c-19ca-4fa5-8c0b-5ce55a0a1dc4")
 	)
-	(label "C1"
-		(at 119.38 113.03 0)
+	(label "C2"
+		(at 127 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -313,8 +352,8 @@
 		)
 		(uuid "4ace715d-9ab9-4ae8-a70d-b4eb17b5b3af")
 	)
-	(label "C3"
-		(at 161.29 111.76 0)
+	(label "C2"
+		(at 168.91 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -323,8 +362,18 @@
 		)
 		(uuid "7684206d-e434-48cb-bbe8-efbe4d1fd8f4")
 	)
-	(label "C1"
-		(at 77.47 110.49 0)
+	(label "C3"
+		(at 69.85 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89d6c6d4-7a9a-4c12-9839-13f2f23d026b")
+	)
+	(label "C3"
+		(at 85.09 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -333,7 +382,17 @@
 		)
 		(uuid "9f642c56-f9de-4237-9b5f-1874412d0a8e")
 	)
-	(label "C3"
+	(label "C2"
+		(at 153.67 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac346b73-44f0-42fa-b348-b0312154d67b")
+	)
+	(label "C2"
 		(at 162.56 140.97 0)
 		(effects
 			(font
@@ -343,7 +402,7 @@
 		)
 		(uuid "bb08ffb4-735c-471d-9f59-e232bf5a722f")
 	)
-	(label "C1"
+	(label "C3"
 		(at 96.52 91.44 0)
 		(effects
 			(font
@@ -353,8 +412,8 @@
 		)
 		(uuid "c18f7e48-d5e6-4f6a-a6c2-4ecc08ded420")
 	)
-	(label "C1"
-		(at 119.38 129.54 0)
+	(label "C2"
+		(at 127 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -363,8 +422,18 @@
 		)
 		(uuid "d18fff5d-f365-4fc2-930d-991b75a5358f")
 	)
-	(label "C1"
-		(at 77.47 130.81 0)
+	(label "C2"
+		(at 111.76 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da0496c3-d494-46f7-8056-d21dd349e0c2")
+	)
+	(label "C3"
+		(at 85.09 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -372,6 +441,16 @@
 			(justify left bottom)
 		)
 		(uuid "edec0029-7695-42bf-9f96-4ba995b8abf3")
+	)
+	(label "C3"
+		(at 69.85 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f580f6e4-c347-4aaf-9a90-24fae1313d39")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -444,7 +523,7 @@
 			(uuid "e124ac05-dde5-447a-b2d4-a99dbbbce2bd")
 		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP4")
 					(unit 1)
@@ -453,7 +532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BatterySpringContact:Battery_Spring_Contact")
+		(lib_id "C19724688:F10-12-0.5-1.3UU-SUS304")
 		(at 77.47 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -465,29 +544,27 @@
 		(fields_autoplaced yes)
 		(uuid "0a248d0c-5fc0-45cf-acd2-4717218aed64")
 		(property "Reference" "BT2"
-			(at 81.28 122.9734 0)
+			(at 77.47 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Spring_Contact"
-			(at 81.28 125.5134 0)
+			(at 77.47 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BatterySpringContact:Keystone_5222_SpringContact_THM"
-			(at 77.47 123.19 0)
+		(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+			(at 77.47 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -497,8 +574,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-			(at 77.47 123.19 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 77.47 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -519,11 +596,47 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 77.47 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 77.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f6cb38b-bc2c-496c-8207-1812d90eb509")
 		)
+		(pin "2"
+			(uuid "15f675d0-f6f2-436c-940c-06e116838cb4")
+		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT2")
 					(unit 1)
@@ -602,7 +715,7 @@
 			(uuid "00b72f87-dbc3-4d5a-97ff-89302b98a795")
 		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP2")
 					(unit 1)
@@ -681,7 +794,7 @@
 			(uuid "351c3315-d5e8-4ddf-98b8-fabd3c46f916")
 		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP1")
 					(unit 1)
@@ -690,7 +803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BatterySpringContact:Battery_Spring_Contact")
+		(lib_id "C19724688:F10-12-0.5-1.3UU-SUS304")
 		(at 161.29 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -702,29 +815,27 @@
 		(fields_autoplaced yes)
 		(uuid "78d1af9b-28d9-4d82-a4a0-478405016d83")
 		(property "Reference" "BT5"
-			(at 165.1 103.9234 0)
+			(at 161.29 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Spring_Contact"
-			(at 165.1 106.4634 0)
+			(at 161.29 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BatterySpringContact:Keystone_5222_SpringContact_THM"
-			(at 161.29 104.14 0)
+		(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+			(at 161.29 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -734,8 +845,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-			(at 161.29 104.14 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -747,6 +858,39 @@
 		)
 		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
 			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 161.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 161.29 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -759,8 +903,11 @@
 		(pin "1"
 			(uuid "1f2dc286-33b3-4ce4-af34-88d3c9e47c48")
 		)
+		(pin "2"
+			(uuid "0e23242d-473b-47b5-8e10-b77433a1fcfe")
+		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT5")
 					(unit 1)
@@ -769,7 +916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BatterySpringContact:Battery_Spring_Contact")
+		(lib_id "C19724688:F10-12-0.5-1.3UU-SUS304")
 		(at 77.47 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -781,29 +928,27 @@
 		(fields_autoplaced yes)
 		(uuid "941154d8-d140-4a07-9cd7-bb06c4da78a0")
 		(property "Reference" "BT1"
-			(at 81.28 103.9234 0)
+			(at 77.47 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Spring_Contact"
-			(at 81.28 106.4634 0)
+			(at 77.47 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BatterySpringContact:Keystone_5222_SpringContact_THM"
-			(at 77.47 104.14 0)
+		(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+			(at 77.47 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -813,8 +958,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-			(at 77.47 104.14 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 77.47 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -826,6 +971,39 @@
 		)
 		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
 			(at 77.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 77.47 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 77.47 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -838,8 +1016,11 @@
 		(pin "1"
 			(uuid "bff6f243-6279-49b8-bc86-58801044c5c1")
 		)
+		(pin "2"
+			(uuid "cb9359cb-19d7-42ea-a724-88ac794d3889")
+		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT1")
 					(unit 1)
@@ -848,7 +1029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BatterySpringContact:Battery_Spring_Contact")
+		(lib_id "C19724688:F10-12-0.5-1.3UU-SUS304")
 		(at 161.29 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -860,29 +1041,27 @@
 		(fields_autoplaced yes)
 		(uuid "a809a27d-de3b-4233-8aeb-247f4467d7c5")
 		(property "Reference" "BT6"
-			(at 165.1 120.4334 0)
+			(at 161.29 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Spring_Contact"
-			(at 165.1 122.9734 0)
+			(at 161.29 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BatterySpringContact:Keystone_5222_SpringContact_THM"
-			(at 161.29 120.65 0)
+		(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+			(at 161.29 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -892,8 +1071,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-			(at 161.29 120.65 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 161.29 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -905,6 +1084,39 @@
 		)
 		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
 			(at 161.29 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 161.29 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 161.29 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 161.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -917,8 +1129,11 @@
 		(pin "1"
 			(uuid "385ea26e-9693-4a0f-a590-b35eddc20eab")
 		)
+		(pin "2"
+			(uuid "c98d1433-2b7a-404c-bab0-6797764441f9")
+		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT6")
 					(unit 1)
@@ -927,7 +1142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BatterySpringContact:Battery_Spring_Contact")
+		(lib_id "C19724688:F10-12-0.5-1.3UU-SUS304")
 		(at 119.38 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -939,29 +1154,27 @@
 		(fields_autoplaced yes)
 		(uuid "c29443ba-8fd3-4f90-8ddf-d47da8244fe7")
 		(property "Reference" "BT4"
-			(at 123.19 121.7034 0)
+			(at 119.38 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Spring_Contact"
-			(at 123.19 124.2434 0)
+			(at 119.38 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BatterySpringContact:Keystone_5222_SpringContact_THM"
-			(at 119.38 121.92 0)
+		(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -971,8 +1184,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-			(at 119.38 121.92 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 119.38 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,11 +1206,47 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 119.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 119.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 119.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b9eec37-78eb-4919-8e25-b1014fa4ecf4")
 		)
+		(pin "2"
+			(uuid "45b70c04-aa09-4f4e-9c66-603cfb2ee9c5")
+		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT4")
 					(unit 1)
@@ -1076,7 +1325,7 @@
 			(uuid "638179c4-2a16-4945-9372-d72dba75b27f")
 		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP3")
 					(unit 1)
@@ -1085,7 +1334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BatterySpringContact:Battery_Spring_Contact")
+		(lib_id "C19724688:F10-12-0.5-1.3UU-SUS304")
 		(at 119.38 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -1097,29 +1346,27 @@
 		(fields_autoplaced yes)
 		(uuid "f1b1e25c-d9f5-45f5-ba96-4c8ebbd1cfad")
 		(property "Reference" "BT3"
-			(at 123.19 105.1934 0)
+			(at 119.38 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Spring_Contact"
-			(at 123.19 107.7334 0)
+			(at 119.38 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BatterySpringContact:Keystone_5222_SpringContact_THM"
-			(at 119.38 105.41 0)
+		(property "Footprint" "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+			(at 119.38 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,8 +1376,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/product_id/909"
-			(at 119.38 105.41 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 119.38 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1151,11 +1398,47 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 119.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 119.38 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f80a34f0-5d09-4cc2-b5b9-dc4624dbba1b")
 		)
+		(pin "2"
+			(uuid "687ddc40-cfc3-4f84-bab0-9ca231f48adb")
+		)
 		(instances
-			(project "Battery Top PCB"
+			(project "Battery Cell Bottom PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT3")
 					(unit 1)

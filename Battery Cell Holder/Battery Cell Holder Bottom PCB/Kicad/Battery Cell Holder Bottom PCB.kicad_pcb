@@ -1,0 +1,2354 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "1d74fae2-6e63-4ea1-985f-a8378ef326b3")
+		(at 88.5 94)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "TP1"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "29303707-8172-42c4-9bdd-cf0eb192a729")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "c3199f9d-c64a-4303-8994-e35391629d79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8137da1f-8185-479d-b58d-b73d9358c9cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39ecb5f4-1d6c-4276-a791-56cd73bbb86e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ce142e2-a505-4c07-9e06-2232b2d26bc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6af3fce5-303e-42e4-afba-4eb4c39bdf23")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c893f588-e32b-4037-a772-3672b2157731")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7a8c16ce-2f89-465e-9b49-a15c73b10595")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "53f86501-3267-4210-9407-8ebd2cca5875")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "8187b803-3de4-4654-a1e4-2bc9f19e0a01")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+		(layer "F.Cu")
+		(uuid "2aad10e8-822d-49ae-889d-3b62f7c4c866")
+		(at 97.187074 103.78834)
+		(property "Reference" "BT3"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "f7d7fc51-e8aa-44f6-af3d-0b801e306fc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "2a9f8758-4a05-4ff5-89c0-b97d52081db8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1dddcd7-184f-4469-9f2f-74a3cb523604")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9949ceff-8db6-4d48-8d9d-17000c446d39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d710d950-be48-433e-a215-ceef789f4f32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fae17375-68f2-453f-961d-ccd6deda4eba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f7b419-d680-4539-8c2f-2e059bba2b29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f1b1e25c-d9f5-45f5-ba96-4c8ebbd1cfad")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -4.78374 -1.44744)
+			(mid -0.006553 -5.019315)
+			(end 4.78 -1.46)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96379dd4-e4a1-45c5-8b63-4db0da5d5016")
+		)
+		(fp_arc
+			(start 4.78699 1.44659)
+			(mid 0.012216 5.022179)
+			(end -4.78 1.47)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d64942b2-c0d1-4db6-85ae-1786c23423a3")
+		)
+		(fp_circle
+			(center -5 5)
+			(end -4.97 5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "85930e50-653d-4454-af52-892db096337e")
+		)
+		(fp_line
+			(start -5 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "381a2b4e-229a-4969-a437-e18d37ba1274")
+		)
+		(fp_line
+			(start 5 0)
+			(end -5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "34a1690c-7344-4a95-807a-cfd7ce8fa7f5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ae96cecf-a524-44af-b2a7-361311659ddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at -4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "f7a1d49b-75f3-4f60-90e1-31b551e7f0ee")
+		)
+		(pad "2" thru_hole oval
+			(at 4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "68864f0e-56d6-4b00-a859-0f40954101f4")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/files/C19724688_F10-12-0.5-1.3UU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+		(layer "F.Cu")
+		(uuid "2d18f45b-9198-4976-9620-23b66b5caffe")
+		(at 114.216932 75.309426)
+		(property "Reference" "BT2"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "6a28726b-cb0c-4a9d-9268-a9dcf9e7900d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "7d8bd6f7-65b0-4877-855f-3a5136f14ece")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b7068a2-f0d1-403f-a46c-612baab5b765")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "657cae6b-4b54-4325-ab4d-41922be58801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "456b2fb4-8829-4b10-8663-ae08d3d626c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed8e9e8-aa51-4f09-b961-eba7da1c43b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c6d99b0-37c2-4fb4-988a-31bf2d7a1ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0a248d0c-5fc0-45cf-acd2-4717218aed64")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -4.78374 -1.44744)
+			(mid -0.006553 -5.019315)
+			(end 4.78 -1.46)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "62920622-01da-4493-8aff-07ec14e537a6")
+		)
+		(fp_arc
+			(start 4.78699 1.44659)
+			(mid 0.012216 5.022179)
+			(end -4.78 1.47)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8dc2caae-4f06-47ee-a336-82630a164d3e")
+		)
+		(fp_circle
+			(center -5 5)
+			(end -4.97 5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "efb9c478-a9c0-4358-8a49-c8ec3d960333")
+		)
+		(fp_line
+			(start -5 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6733641-4fa5-4372-b9cc-3fdf9082c59f")
+		)
+		(fp_line
+			(start 5 0)
+			(end -5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25c0c4f7-b7a3-47dd-9aa6-a8280731e6d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "90d98c69-01dc-4392-8487-d11fde53ffeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at -4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "c27c55a5-1af5-4613-ac50-5c91abdb9bc5")
+		)
+		(pad "2" thru_hole oval
+			(at 4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "1df83405-5158-4b0e-8c2f-9de15db88b79")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/files/C19724688_F10-12-0.5-1.3UU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+		(layer "F.Cu")
+		(uuid "36112694-8bb0-4333-a203-a660b270c54c")
+		(at 114.216932 94.309426)
+		(property "Reference" "BT4"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "3633b485-9581-49ce-af96-1c48fd4731be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "9b8acca5-c60d-496c-9f42-b6554a03493f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "948d7be0-afb6-4ddb-80a7-592d0e1f93da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "606c139e-346b-48a8-8fff-e1c4f67400c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8433e7a3-3305-4607-bd0e-3e3b0feb7610")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ec1ce70-523b-4640-b301-480384228075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c59b141-a7f8-4f87-aa74-5a943908ea2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c29443ba-8fd3-4f90-8ddf-d47da8244fe7")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -4.78374 -1.44744)
+			(mid -0.006553 -5.019315)
+			(end 4.78 -1.46)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2357b93-90ae-4596-a939-1105cd761385")
+		)
+		(fp_arc
+			(start 4.78699 1.44659)
+			(mid 0.012216 5.022179)
+			(end -4.78 1.47)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "851d4d60-1d12-4c71-99d7-8dba6ff7267a")
+		)
+		(fp_circle
+			(center -5 5)
+			(end -4.97 5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fc2201b3-8270-4edf-a339-30f6af0cdea3")
+		)
+		(fp_line
+			(start -5 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6fa28152-3e9e-453b-8705-37e71b3068ab")
+		)
+		(fp_line
+			(start 5 0)
+			(end -5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "557818eb-6136-40ff-ac35-952c5291164d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "827527b3-dd7f-440e-8890-f76434235e7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at -4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "b5990d72-5ebb-4fd2-a209-1d94452b2f4c")
+		)
+		(pad "2" thru_hole oval
+			(at 4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "f3604430-3a03-4a8b-82d5-9f6470d6b96c")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/files/C19724688_F10-12-0.5-1.3UU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+		(layer "F.Cu")
+		(uuid "6c9fa1d6-406a-4f12-924f-0567951c452b")
+		(at 97.187074 84.786903)
+		(property "Reference" "BT1"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "5aaf96b0-3271-47ad-9178-40f0c568496e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "5b38cf72-0618-4694-82f1-d0ecfc850c34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4a7b86d-bca6-4aad-beff-052e171493e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "676c8a00-f4b6-4987-bd6e-6fe20ae6d248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f51efb25-2316-456b-9d56-445f8e4edb09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29db6b8c-5ed6-45c1-b923-e0751087c6ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6f5a6d1-bb47-439d-8303-c99e2e9f1c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/941154d8-d140-4a07-9cd7-bb06c4da78a0")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -4.78374 -1.44744)
+			(mid -0.006553 -5.019315)
+			(end 4.78 -1.46)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c53dcdf4-4dc2-49b2-b0a9-fdbdc50f27ec")
+		)
+		(fp_arc
+			(start 4.78699 1.44659)
+			(mid 0.012216 5.022179)
+			(end -4.78 1.47)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90b8daf5-33a7-40ea-b848-4d3a8311c3c9")
+		)
+		(fp_circle
+			(center -5 5)
+			(end -4.97 5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d350727d-0e4f-4204-b413-cc4e1532e464")
+		)
+		(fp_line
+			(start -5 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a92a3bd-0e5c-4efd-8dda-a52a6f4b04e8")
+		)
+		(fp_line
+			(start 5 0)
+			(end -5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1636b9c7-501a-4209-a343-8dc7420df0d6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "34fce338-0b14-4602-b941-6492bae73431")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at -4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "d5ac0f2e-c3ce-4a67-8953-776b921107b4")
+		)
+		(pad "2" thru_hole oval
+			(at 4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C1")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "3a724c2e-6a31-4df0-8e5c-2195e5c97911")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/files/C19724688_F10-12-0.5-1.3UU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "aa4e4431-4598-4c80-8f34-e840c3659399")
+		(at 122.5 85)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "TP2"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "577a8857-df74-4bd3-b663-fbb2ff266080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "3fc45397-4b7e-40c3-b38b-ff1b633780e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9715f515-e8cc-4544-a4dd-14fa5a9a7801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2af4bccc-9c29-4c5c-84c1-f0d33e0689d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cdbf1df9-b1ee-40fd-987b-91754389ae84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/69432c9a-4209-4ef7-a741-a192a4faa0db")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2d2dcf5d-246d-4c4d-8108-075c23a71ffb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "427f8bcf-1f68-4859-8076-49b0dd4dce4b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e2335e89-82c3-4b08-b39d-50da9989dd35")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C1")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "96a4616d-1047-444b-b227-c9eb3acc1b4d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "bb53cead-d377-4aa8-bff4-e1c75dda52de")
+		(at 122.5 103.75)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "TP4"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "f2eee763-3a1a-4914-9afb-42372215fcea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "4d4254e4-a0c7-4b96-862e-189ef47d668e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c555abe1-137a-451c-a3b6-ad1569f249c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebc28150-2104-4cb9-bd1f-048637cf0eef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab77713b-6b08-4126-a815-6195038a23f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0a19383d-18b9-4069-9233-d859d2c60e77")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ea4f5db5-908f-43e8-a1b5-76f888ec57eb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "266a0c19-eabd-4957-b867-abfda5e72fe4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0c42bb66-77e0-407d-8558-233a897d7dbc")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C3")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "cd870154-8fc1-41a8-b288-7c5bb776036a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+		(layer "F.Cu")
+		(uuid "e3afb57c-8b1f-43ba-8cb2-f5f98884c1fe")
+		(at 97.187074 122.78834)
+		(property "Reference" "BT5"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "52e788ce-cfb0-4ff1-bd37-ef8b5b38fb54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "7224f333-f58f-45a3-aad8-c9c80cc10414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55c1ee4a-d800-45b3-b8c4-c38294ea9eee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcc7c0b6-4e04-4de4-8163-f31060ecfbd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79223dd2-e34a-4bbd-8c32-43c6fc4c9aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "722ae3be-10b1-4384-bc47-ac4994ab0c65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "595645ee-4052-481f-aec9-72819b8c891f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/78d1af9b-28d9-4d82-a4a0-478405016d83")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -4.78374 -1.44744)
+			(mid -0.006553 -5.019315)
+			(end 4.78 -1.46)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e3560ea-f61a-4fca-841e-6287a43e5976")
+		)
+		(fp_arc
+			(start 4.78699 1.44659)
+			(mid 0.012216 5.022179)
+			(end -4.78 1.47)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95505650-5b35-410c-822d-9b8b73c3ec60")
+		)
+		(fp_circle
+			(center -5 5)
+			(end -4.97 5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "014e67c3-2151-425e-b496-9575368bad51")
+		)
+		(fp_line
+			(start -5 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6a9eab0a-c21a-4600-aad0-45cc5b103dec")
+		)
+		(fp_line
+			(start 5 0)
+			(end -5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aa92608d-d81b-40bf-a0c8-afc99689b5ba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5f1a1e33-c5d8-4cef-9105-e1742845ab8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at -4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "fb4407b9-0f4a-4fe7-ad9a-ff0eb303b5c0")
+		)
+		(pad "2" thru_hole oval
+			(at 4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "591a4c99-931a-4951-b588-6b1d949895a5")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/files/C19724688_F10-12-0.5-1.3UU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(layer "F.Cu")
+		(uuid "f9498f06-49b3-4aae-82fd-910957e78c82")
+		(at 88.75 113.25)
+		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
+		(tags "connector wire 1.5sqmm")
+		(property "Reference" "TP3"
+			(at 0 -3.15 0)
+			(layer "F.SilkS")
+			(uuid "99ed7a71-e5d1-4bdc-8da9-6d2a931f6d74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 3.15 0)
+			(layer "F.Fab")
+			(uuid "bc07fea2-4005-460d-b797-d8a8f6e671cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55e473f-ff42-401c-b6a6-3cdc226c5339")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cd62dc7-7c0e-419e-ba78-e4f89b6dabb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "668a2dad-283a-49c6-af8a-e9a2929af9f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/d97b7123-1f9a-4e1b-b2c6-150a05af4c38")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2.7 -2.45)
+			(end 2.7 2.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5ace6680-b7f8-4e78-9967-90dd3edf6a59")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b4a726e5-63d6-4911-8dce-04da9a399280")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0bd90f9d-b600-4266-b792-f80c9ff02d6f")
+			(effects
+				(font
+					(size 0.98 0.98)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 3.9 3.9)
+			(drill 2.15)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.064103)
+			(net "/C3")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "7c511611-21ba-4e26-b245-39393c82339a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "C19724688:TH-2_BD10.0_F10-12-0.5-1.3UU-SUS304"
+		(layer "F.Cu")
+		(uuid "fb15ca6e-936d-4857-b47e-cca79d854dd6")
+		(at 114.216932 113.309426)
+		(property "Reference" "BT6"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "f7751982-63c1-44bb-bbd0-dde81d12f373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Battery_Spring_Contact"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "6d4966c4-3ef0-43bc-a195-dc96f068080b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19724688.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8b3a107-6566-4d28-96b1-42ab6704dc96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single battery spring contact, one electrical terminal (e.g. Keystone 5222 / 5201 / 5202 coil spring). Typically the negative-end cell contact."
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fe5ee01-40ab-4e86-a6aa-6f543396d238")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19724688"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c58a89e-a023-46cc-bdb6-6577810a672e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XMXW(芯网)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6515155-6b04-4bdb-969f-bc31044f1324")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "F10-12-0.5-1.3UU-sus304"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4d2843-71ac-4e2a-869f-46cf7544645e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a809a27d-de3b-4233-8aeb-247f4467d7c5")
+		(sheetname "/")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -4.78374 -1.44744)
+			(mid -0.006553 -5.019315)
+			(end 4.78 -1.46)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce4f48a5-3dba-4728-8175-e8a7c1241001")
+		)
+		(fp_arc
+			(start 4.78699 1.44659)
+			(mid 0.012216 5.022179)
+			(end -4.78 1.47)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f0c3e10-7c1e-483f-9049-dc0cd98dedb6")
+		)
+		(fp_circle
+			(center -5 5)
+			(end -4.97 5)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "234e245a-bd40-41bb-9f2b-3b454723b539")
+		)
+		(fp_line
+			(start -5 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "366fe690-f72e-4bac-8060-d4054fb4123a")
+		)
+		(fp_line
+			(start 5 0)
+			(end -5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "faa2d1ec-f9ab-4496-83d9-05c943f7128f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3551b5c1-095f-4e04-93fa-563cfbbb9cf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at -4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "3317b228-7ed7-46d4-8633-825e3b146914")
+		)
+		(pad "2" thru_hole oval
+			(at 4.75 0)
+			(size 1.5 2.5)
+			(drill oval 0.900024 1.799996)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/C3")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "4923b8b8-60e4-4396-994f-f89015d3c3ed")
+		)
+		(embedded_fonts no)
+		(model "/Users/matthew/projects/A-STSC/battery-board/Battery Cell Holder/BatterySpringContact-kicad/files/C19724688_F10-12-0.5-1.3UU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_circle
+		(center 97.187074 84.78834)
+		(end 106.437074 84.78834)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "50e1f8ed-0303-422a-850c-9cdb03a48083")
+	)
+	(gr_circle
+		(center 97.187074 103.78834)
+		(end 106.437074 103.78834)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0f7ad18d-0b0d-4133-b0f7-e803f8b80039")
+	)
+	(gr_circle
+		(center 97.187074 122.78834)
+		(end 106.437074 122.78834)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b854984e-064a-4ce2-9947-4b408be00641")
+	)
+	(gr_circle
+		(center 114.216932 75.309426)
+		(end 123.466932 75.309426)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b731ac79-1a3b-4c87-9e10-7dae75412999")
+	)
+	(gr_circle
+		(center 114.216932 94.309426)
+		(end 123.466932 94.309426)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "26f902bf-2a4b-4fd5-a735-fa8fbb8afd34")
+	)
+	(gr_circle
+		(center 114.216932 113.309426)
+		(end 123.466932 113.309426)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8637605d-8a47-45d9-a6c1-89949f118006")
+	)
+	(gr_arc
+		(start 87.272118 131.236406)
+		(mid 86.031742 104.095961)
+		(end 86.595607 76.933039)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2977359-265f-4da6-b661-dbb7f54c9161")
+	)
+	(gr_arc
+		(start 90.262789 134.000001)
+		(mid 88.226767 133.203318)
+		(end 87.272118 131.236406)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad4b93fd-a17c-4a09-bc88-c0793bc9bf6e")
+	)
+	(gr_line
+		(start 90.262789 134.000001)
+		(end 105.500001 134.000001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2238800-7a47-4117-92da-12d110914909")
+	)
+	(gr_line
+		(start 101.451443 64)
+		(end 86.595607 76.933039)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc61e00e-2cd0-444a-8f82-c72335fbf503")
+	)
+	(gr_line
+		(start 104.054667 130.242766)
+		(end 121.951198 120.767711)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b31d2ea-13e1-4276-ad04-826ce05e3fe8")
+	)
+	(gr_line
+		(start 105.500001 134.000001)
+		(end 124.230259 124.083542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "50815362-cb23-44b8-91de-4e81d2697c98")
+	)
+	(gr_line
+		(start 105.575354 133.115049)
+		(end 104.054667 130.242766)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c36e7e89-057b-4a3f-9637-1b7e1880d0cb")
+	)
+	(gr_line
+		(start 120.737213 64.000001)
+		(end 101.451443 64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66773fc2-4f4f-4951-ac46-84fa5b12be6d")
+	)
+	(gr_arc
+		(start 120.737213 64.000001)
+		(mid 122.773235 64.796684)
+		(end 123.727883 66.763595)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea9ec2f7-98f5-4950-914b-f5de847cda98")
+	)
+	(gr_line
+		(start 121.951198 120.767711)
+		(end 123.471886 123.639994)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "276bc570-d36f-4b3e-9d94-8a745f08dfba")
+	)
+	(gr_line
+		(start 123.471886 123.639994)
+		(end 105.575354 133.115049)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c124123c-2111-4571-abce-eb6f9760bebd")
+	)
+	(gr_arc
+		(start 123.727883 66.763595)
+		(mid 124.984289 95.414758)
+		(end 124.230259 124.083542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8b907e90-448a-4d99-8530-5f4cf1dfaa79")
+	)
+	(gr_text "8.4V"
+		(at 88.75 97.5 0)
+		(layer "F.SilkS")
+		(uuid "628cb6f8-fdd9-428c-af56-bd9632127204")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "8.4V"
+		(at 97 96.5 0)
+		(layer "F.SilkS")
+		(uuid "49abb091-4dfe-4ed1-a97d-b018dfd7f1e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "8.4V"
+		(at 97.25 78 0)
+		(layer "F.SilkS")
+		(uuid "d3c5d2b9-e16e-4f73-a917-1bcf37d2037b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "0V"
+		(at 97.25 115.25 0)
+		(layer "F.SilkS")
+		(uuid "b6aba35f-42c2-4e3c-89d4-38b7ef0220ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "8.4V"
+		(at 114.25 87.5 0)
+		(layer "F.SilkS")
+		(uuid "685fcfcf-242e-4916-ae5f-7cac45cd5ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "0V"
+		(at 114.25 106 0)
+		(layer "F.SilkS")
+		(uuid "57c4e037-a733-4407-adb9-1f2d2e66e26b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "8.4V"
+		(at 114.5 68.5 0)
+		(layer "F.SilkS")
+		(uuid "6ed3c4c8-9fe5-4c3e-930f-83dd445e645a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "8.4V"
+		(at 122.5 88.5 0)
+		(layer "F.SilkS")
+		(uuid "2c333d55-fbc1-40fd-977d-1bb51bcf7286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "0V"
+		(at 88.75 116.75 0)
+		(layer "F.SilkS")
+		(uuid "121f6902-a2de-4786-8701-325309a9bd13")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(gr_text "0V"
+		(at 122.5 107.25 0)
+		(layer "F.SilkS")
+		(uuid "7f7f4d3a-3f66-4487-b407-3c4f898518da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(gr_text "BOT PANEL\n[TOP SIDE]\n"
+		(at 96 75 40)
+		(layer "F.SilkS")
+		(uuid "e4b158ea-37b2-406c-aa90-21eac4afbbd4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 97.187074 84.816903 0)
+		(layer "F.SilkS")
+		(uuid "5f778bb4-7a1a-46cc-ae70-1dd37d1856ba")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 97.187074 103.78834 0)
+		(layer "F.SilkS")
+		(uuid "3ff69fc7-ed62-4cd5-bd7c-8d2864a3249e")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 97.187074 122.81834 0)
+		(layer "F.SilkS")
+		(uuid "a5de02a1-3511-408b-aa6a-95313fe8b5a1")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 114.216932 75.339426 0)
+		(layer "F.SilkS")
+		(uuid "10508a29-041f-4664-848e-1c6b9674aeeb")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 114.216932 94.279426 0)
+		(layer "F.SilkS")
+		(uuid "9ab0e040-3527-42a2-8769-d5b7d33c71fd")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 114.216932 113.279426 0)
+		(layer "F.SilkS")
+		(uuid "96d795bf-6158-4731-8523-0ff166381a8d")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.25)
+			)
+		)
+	)
+	(segment
+		(start 100.687074 103.78834)
+		(end 93.687074 103.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "0e999a2b-e7de-4ca7-a322-f4c3a6d34870")
+	)
+	(segment
+		(start 110.716932 94.309426)
+		(end 101.238018 103.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "21f24a84-b246-4474-8586-2cc08c7fc095")
+	)
+	(segment
+		(start 110.716932 75.309426)
+		(end 101.238018 84.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "434d2203-0700-41a2-a064-00762bc9fafb")
+	)
+	(segment
+		(start 117.716932 84.5)
+		(end 117.716932 94.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "4393bcaf-ffb7-4f81-a12f-1b9d2ac2a3d5")
+	)
+	(segment
+		(start 117.716932 75.309426)
+		(end 117.716932 84.5)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "564d8ca4-760c-4263-8d35-b74104eb9088")
+	)
+	(segment
+		(start 101.238018 103.78834)
+		(end 100.687074 103.78834)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "6900962d-3f0b-42aa-b276-bdba46834738")
+	)
+	(segment
+		(start 93.687074 84.78834)
+		(end 101.238018 84.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "6b5df6f5-066e-48d2-9a98-fef63e6e9644")
+	)
+	(segment
+		(start 121.727763 84.5)
+		(end 121.748314 85.029192)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "707cb169-25c9-4d3a-90f1-3605cb77d455")
+	)
+	(segment
+		(start 117.716932 75.309426)
+		(end 110.716932 75.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "707dac7b-a195-4650-8084-9a178eb65ad9")
+	)
+	(segment
+		(start 93.687074 93.75)
+		(end 89.046218 93.75)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "787f34bc-93e9-45f0-8a9d-a1a13e88e457")
+	)
+	(segment
+		(start 117.716932 94.309426)
+		(end 110.716932 94.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "803dfff1-2c9b-4580-8ed7-15de14a688cb")
+	)
+	(segment
+		(start 89.046218 93.75)
+		(end 89.042076 94.00868)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "8297f3c2-6e7c-4746-88cc-4985a60236c7")
+	)
+	(segment
+		(start 93.687074 84.78834)
+		(end 93.687074 93.75)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "890e5788-3c3b-44e4-adfd-af10544fbef4")
+	)
+	(segment
+		(start 93.687074 93.75)
+		(end 93.687074 103.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "ab871e93-b64b-4012-80f5-6a668ed6a4af")
+	)
+	(segment
+		(start 101.238018 84.78834)
+		(end 100.687074 84.78834)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "d8af6e5d-8ed8-43ba-ad10-a740302cfb22")
+	)
+	(segment
+		(start 117.716932 84.5)
+		(end 121.727763 84.5)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C1")
+		(uuid "ff0414aa-c5dc-4c57-8842-3ce02d27bfd1")
+	)
+	(segment
+		(start 93.687074 122.78834)
+		(end 93.687074 117.659759)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "1dc67b01-26ca-4743-bcf3-6a380db3f02c")
+	)
+	(segment
+		(start 101.238018 122.78834)
+		(end 100.687074 122.78834)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "227b0615-58d6-46b1-91c2-29e2fc5e161b")
+	)
+	(segment
+		(start 117.716932 113.309426)
+		(end 117.716932 108.533068)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "24d751a5-2f61-44a4-9fe2-9937b47e223f")
+	)
+	(segment
+		(start 93.687074 117.659759)
+		(end 89.256572 113.229257)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "319ebf04-8a19-433a-835d-8b8ffa31d2da")
+	)
+	(segment
+		(start 117.716932 108.533068)
+		(end 121.964264 104.285736)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "5384be60-3f46-43ec-8462-ac537e7479df")
+	)
+	(segment
+		(start 93.687074 122.78834)
+		(end 100.687074 122.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "55993cff-b19c-48f8-adf0-f31c1eafaf69")
+	)
+	(segment
+		(start 117.716932 113.309426)
+		(end 110.716932 113.309426)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "5c5cc014-681e-45cd-b2bc-137a7480c4d8")
+	)
+	(segment
+		(start 110.716932 113.309426)
+		(end 101.238018 122.78834)
+		(width 5)
+		(layer "F.Cu")
+		(net "/C3")
+		(uuid "f94a074d-cd01-440f-984a-bc3a6642c824")
+	)
+	(embedded_fonts no)
+)

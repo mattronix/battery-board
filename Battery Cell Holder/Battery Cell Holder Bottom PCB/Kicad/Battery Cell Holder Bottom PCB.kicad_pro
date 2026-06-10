@@ -156,7 +156,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Battery Cell Bottom PCB.kicad_pro",
+    "filename": "Battery Cell Holder Top PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,18 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Battery Cell Bottom PCB.kicad_sch",
-        "name": "Battery Cell Bottom PCB",
+        "filename": "Battery Cell Holder Top PCB.kicad_sch",
+        "name": "Battery Cell Holder Top PCB",
         "uuid": "c2b66043-eeb5-4f48-8a0b-1db691422cdc"
       }
     ],
-    "used_designators": "J1,TP1-4,BT1-6",
+    "used_designators": "U1,J1,TP1-4,BT1-6",
     "variants": []
   },
   "sheets": [
     [
       "c2b66043-eeb5-4f48-8a0b-1db691422cdc",
-      "Battery Top PCB"
+      "Battery Cell Holder Top PCB"
     ]
   ],
   "text_variables": {},
