@@ -523,7 +523,7 @@
 			(uuid "e124ac05-dde5-447a-b2d4-a99dbbbce2bd")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP4")
 					(unit 1)
@@ -636,7 +636,7 @@
 			(uuid "15f675d0-f6f2-436c-940c-06e116838cb4")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT2")
 					(unit 1)
@@ -715,7 +715,7 @@
 			(uuid "00b72f87-dbc3-4d5a-97ff-89302b98a795")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP2")
 					(unit 1)
@@ -794,7 +794,7 @@
 			(uuid "351c3315-d5e8-4ddf-98b8-fabd3c46f916")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP1")
 					(unit 1)
@@ -907,7 +907,7 @@
 			(uuid "0e23242d-473b-47b5-8e10-b77433a1fcfe")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT5")
 					(unit 1)
@@ -1020,7 +1020,7 @@
 			(uuid "cb9359cb-19d7-42ea-a724-88ac794d3889")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT1")
 					(unit 1)
@@ -1133,7 +1133,7 @@
 			(uuid "c98d1433-2b7a-404c-bab0-6797764441f9")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT6")
 					(unit 1)
@@ -1246,7 +1246,7 @@
 			(uuid "45b70c04-aa09-4f4e-9c66-603cfb2ee9c5")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT4")
 					(unit 1)
@@ -1325,7 +1325,7 @@
 			(uuid "638179c4-2a16-4945-9372-d72dba75b27f")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "TP3")
 					(unit 1)
@@ -1438,7 +1438,7 @@
 			(uuid "687ddc40-cfc3-4f84-bab0-9ca231f48adb")
 		)
 		(instances
-			(project "Battery Cell Bottom PCB"
+			(project "Battery Cell Holder Top PCB"
 				(path "/c2b66043-eeb5-4f48-8a0b-1db691422cdc"
 					(reference "BT3")
 					(unit 1)

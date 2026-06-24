@@ -93,7 +93,7 @@
 		(at 122.5 85)
 		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 1.5sqmm")
-		(property "Reference" "12.6V"
+		(property "Reference" "TP2"
 			(at 0 -3.15 0)
 			(layer "B.SilkS")
 			(uuid "fbddeb44-56d1-48dc-8c7f-626ef0cb2abe")
@@ -153,7 +153,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/69432c9a-4209-4ef7-a741-a192a4faa0db")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -225,7 +225,7 @@
 		(at 122.5 103.75)
 		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 1.5sqmm")
-		(property "Reference" "8.4V"
+		(property "Reference" "TP4"
 			(at 0 -3.15 0)
 			(layer "B.SilkS")
 			(uuid "0c492d20-dc2e-4e72-b9be-a0e01ae43df5")
@@ -285,7 +285,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0a19383d-18b9-4069-9233-d859d2c60e77")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -357,7 +357,7 @@
 		(at 88.75 113.25)
 		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 1.5sqmm")
-		(property "Reference" "8.4V"
+		(property "Reference" "TP3"
 			(at 0 -3.15 0)
 			(layer "B.SilkS")
 			(uuid "e7b0fea7-175e-44ce-834e-e158875106ac")
@@ -417,7 +417,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d97b7123-1f9a-4e1b-b2c6-150a05af4c38")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -489,7 +489,7 @@
 		(at 88.5 94 180)
 		(descr "Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 1.5sqmm")
-		(property "Reference" "12.6V"
+		(property "Reference" "TP1"
 			(at 0 3.15 0)
 			(layer "B.SilkS")
 			(uuid "40cf1c26-c707-4c1a-995b-a79e62d859e0")
@@ -553,7 +553,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6af3fce5-303e-42e4-afba-4eb4c39bdf23")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -624,7 +624,7 @@
 		(layer "B.Cu")
 		(uuid "242e7956-4b6b-4a59-a495-0cc1601d0e20")
 		(at 97.187074 84.78834 180)
-		(property "Reference" "12.6V"
+		(property "Reference" "BT1"
 			(at 0 4 0)
 			(layer "B.SilkS")
 			(uuid "300b975e-e66f-4c57-aba3-53cb54ff1348")
@@ -680,6 +680,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -714,7 +715,7 @@
 		)
 		(path "/941154d8-d140-4a07-9cd7-bb06c4da78a0")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -827,7 +828,7 @@
 		(layer "B.Cu")
 		(uuid "2aad10e8-822d-49ae-889d-3b62f7c4c866")
 		(at 97.187074 103.78834 180)
-		(property "Reference" "8.4V"
+		(property "Reference" "BT3"
 			(at 0 4 0)
 			(layer "B.SilkS")
 			(uuid "af4db309-d172-4193-ad9b-e4dedc8d0499")
@@ -883,6 +884,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -917,7 +919,7 @@
 		)
 		(path "/f1b1e25c-d9f5-45f5-ba96-4c8ebbd1cfad")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1030,7 +1032,7 @@
 		(layer "B.Cu")
 		(uuid "2d18f45b-9198-4976-9620-23b66b5caffe")
 		(at 114.216932 75.309426 180)
-		(property "Reference" "12.6V"
+		(property "Reference" "BT2"
 			(at 0 4 0)
 			(layer "B.SilkS")
 			(uuid "65ca2e89-b387-466a-8bda-4eb24c166db9")
@@ -1086,6 +1088,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1120,7 +1123,7 @@
 		)
 		(path "/0a248d0c-5fc0-45cf-acd2-4717218aed64")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1233,7 +1236,7 @@
 		(layer "B.Cu")
 		(uuid "36112694-8bb0-4333-a203-a660b270c54c")
 		(at 114.216932 94.309426 180)
-		(property "Reference" "8.4V"
+		(property "Reference" "BT4"
 			(at 0 4 0)
 			(layer "B.SilkS")
 			(uuid "7005f86a-1a2e-4203-9065-3a1a50aba7ce")
@@ -1289,6 +1292,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1323,7 +1327,7 @@
 		)
 		(path "/c29443ba-8fd3-4f90-8ddf-d47da8244fe7")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1436,7 +1440,7 @@
 		(layer "B.Cu")
 		(uuid "e3afb57c-8b1f-43ba-8cb2-f5f98884c1fe")
 		(at 97.187074 122.78834 180)
-		(property "Reference" "4.2V"
+		(property "Reference" "BT5"
 			(at 0 4 0)
 			(layer "B.SilkS")
 			(uuid "0aa3ac51-10ca-4d72-9797-365347c8c712")
@@ -1492,6 +1496,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1526,7 +1531,7 @@
 		)
 		(path "/78d1af9b-28d9-4d82-a4a0-478405016d83")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1639,7 +1644,7 @@
 		(layer "B.Cu")
 		(uuid "fb15ca6e-936d-4857-b47e-cca79d854dd6")
 		(at 114.216932 113.309426 180)
-		(property "Reference" "4.2V"
+		(property "Reference" "BT6"
 			(at 0 4 0)
 			(layer "B.SilkS")
 			(uuid "770198cd-9e16-4f41-966b-762566c61b4a")
@@ -1695,6 +1700,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -1729,7 +1735,7 @@
 		)
 		(path "/a809a27d-de3b-4233-8aeb-247f4467d7c5")
 		(sheetname "/")
-		(sheetfile "Battery Cell Bottom PCB.kicad_sch")
+		(sheetfile "Battery Cell Holder Top PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
